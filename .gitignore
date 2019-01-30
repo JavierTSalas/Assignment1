@@ -2,3 +2,5 @@
 /Makefile
 /nbproject/
 /core
+/.idea/
+/cmake-build-debug/
