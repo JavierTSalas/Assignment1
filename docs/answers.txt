@@ -1,0 +1,36 @@
+a) $ git status
+   On branch master
+   Your branch is ahead of 'origin/master' by 1 commit.
+     (use "git push" to publish your local commits)
+   Changes to be committed:
+     (use "git reset HEAD <file>..." to unstage)
+
+           modified:   .gitignore
+
+b) 5, command = "git rev-list --all --count"
+c) Date:   Thu Jan 10 16:45:38 2019 -0500
+d) Isolation of features during development
+   Delegation of work
+e) git log shows the commit logs while git status shows the status of the working tree status
+f) git log Weapon.h
+g) git log --grep="file"
+h) Inheritance is the mechanism where one derives a class B from another class A.
+ Class B shares a set of attributes and methods from class A.
+
+i) The main difference between "Dictator and Lieutenants" workflow and the "Integration management"
+workflow is that is a the Dictator and Lieutenants, the dictator has a level of management between
+the Dictator who has final say in the project and decides which commits and merges are allowed.
+This idea of an extra level of management can easily be extended several junior devs commiting
+while a senior dev handle meges. The Integration management is more like a public repo that
+accepts pulls because it does not have an organization, each new feature must be pulled
+by the integration manager who decides for every feature.
+j) 100 people under a "Dictator and Lieutenants" workflow will be more effective than 100 people
+under "Integration management" because in the Dictator and Lieutenants workflow, the
+Dictator can delegate specific tasks to Lieutenants who can delegate task to junior devs.
+
+
+5) The RoleGame prototype uses both encapsulation and polymorphism. The bundling of internal data
+for a generic Weapon class can be seen as encapsulating. This concept is extended even further with
+the WeaponFactory class. This class also takes advantage of OOP principle, one being the idea of virtual
+functions in that and class that has the same parent will have implemented a virtual function so
+that it can support new classes as long as the inherit from the same parent.
